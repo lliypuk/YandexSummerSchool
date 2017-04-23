@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    >
+
+
+    <ImageButton
+        android:id="@+id/TabFavoriteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/textView_translate_txt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:background="#0000"
+        app:srcCompat="@drawable/ic_favorite_black_24dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_translate_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_source_txt"
+        android:layout_alignStart="@+id/textView_source_txt"
+        android:layout_below="@+id/textView_source_txt"
+        android:text="Translate_text"
+        android:maxWidth="260dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_source_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/TabFavoriteBtn"
+        android:layout_toRightOf="@+id/TabFavoriteBtn"
+        android:text="Source_text"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:maxWidth="260dp"/>
+
+    <TextView
+        android:id="@+id/textView_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center"
+        android:text="EN-RU"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/TabFavoriteBtn"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>

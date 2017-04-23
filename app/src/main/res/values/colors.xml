@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffdc61</color>
+    <color name="colorPrimaryDark">#e1c255</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="DarkGrey">#cfcfcf</color>
+    <color name="White">#fff</color>
+
+    <color name="tabSelectedIconColor">#000</color>
+
+
+
+    <!--<color name="actionbar_background">#ffdc61</color>-->
+    <!--<color name="actionbar_text_color">#ffffff</color>-->
+
+</resources>

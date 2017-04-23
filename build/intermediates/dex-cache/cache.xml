@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d6801d0e0e41b6be9df2302e7f4b0624ecf6b34b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aleksandrnazarenko/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_93f719c3add3f3386772d0d6cd28b7eb85fea5ee.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb2fd7a2269f1dc1fbbf1e667c0bdf1e83c69314">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2c9ecf836b521b013954976596fc1a85da5aa176/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aleksandrnazarenko/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/pre-dexed/debug/retrofit-2.2.0_1074ebaa198efa40d6bcc552a8e6720a8ab5e5b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aleksandrnazarenko/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/pre-dexed/debug/okio-1.11.0_49dbac4fb97c709e0ce8bd342a456266d68fdd16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aleksandrnazarenko/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_1c670b374e65342f6e107f7928cfaebf83d87346.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aleksandrnazarenko/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/pre-dexed/debug/gson-2.4_d09d5c52fd8ce7b35cbc3684cd4eed951867a962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aleksandrnazarenko/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta3/8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2/converter-gson-2.0.0-beta3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2">
+        <dex dex="/Users/aleksandrnazarenko/AndroidStudioProjects/YandexTranslator/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta3_a2f2381f8531b74ef6fa8e280ed7e17d60e75470.jar" />
+    </item>
+
+</items>

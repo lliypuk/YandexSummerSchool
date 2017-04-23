@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--android:padding="10dp"-->
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="33dp">
+
+        <TextView
+            android:id="@+id/DirectionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical|center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="↔" />
+
+        <Spinner
+            android:id="@+id/SoursLang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_toLeftOf="@+id/DirectionBtn"
+            android:background="@color/colorPrimary"
+            android:dropDownWidth="wrap_content"
+
+
+            android:popupBackground="@color/colorPrimary"
+            tools:text="Русский" />
+
+        <Spinner
+            android:id="@+id/TranslateLang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_toRightOf="@+id/DirectionBtn"
+            android:background="@color/colorPrimary"
+            android:dropDownWidth="wrap_content"
+            android:gravity="center_vertical|left"
+            android:popupBackground="@color/colorPrimary"
+            tools:text="Португальский" />
+    </RelativeLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.home.aleksandrnazarenko.yandextranslator.MainActivity">
+
+        <EditText
+            android:id="@+id/TypeFieldEdTxt"
+            android:layout_width="0dp"
+            android:layout_height="174dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+            android:gravity="top"
+            android:hint="Введите, что хотите перевести"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingBottom="20dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingStart="4dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <ImageButton
+            android:id="@+id/ClearBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="8dp"
+            android:background="#0000"
+            app:layout_constraintBottom_toBottomOf="@+id/TypeFieldEdTxt"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:srcCompat="@drawable/ic_close_black_24dp"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1" />
+
+        <TextView
+            android:id="@+id/resultTxt"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:inputType="textMultiLine"
+
+            android:text=""
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/FavoriteBtn"
+            tools:layout_constraintTop_creator="1" />
+
+        <ImageButton
+            android:id="@+id/FavoriteBtn"
+            android:layout_width="39dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="10dp"
+            android:background="#0000"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/TypeFieldEdTxt"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginRight="10dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+    </ScrollView>
+    <!--android:textAlignment="viewStart"-->
